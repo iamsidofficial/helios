@@ -11,20 +11,21 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #00c6ff, #0072ff);
+
     font-family: monospace;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
-    background-color: #1d3557;
+    background-color: #0a0b0f;
     color: #a8dadc;
     text-align: center;
 }
 
 h1 {
+    color: #ef233c;
     font-size: 1.8rem;
     margin-top: 30px;
     margin-bottom: 15px;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
 }
 
@@ -35,15 +36,19 @@ h1 {
 }
 
 #details {
-
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+    bottom: 1000px;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: #2B32B2;
+    background-color: #212529;
     padding: 10px;
     color: #fff;
     display: flex;
-    width: 800px;
+    width: 400px;
     max-width: 800px;
     box-shadow: 7px -2px 8px -1px rgba(0,0,0,0.7);
     border-bottom-right-radius: 3px;
@@ -51,9 +56,20 @@ h1 {
   }
 
   #details div {
+    color: #white;
+    margin: 10px;
+    width: auto;
     display: flex;
     flex-direction: column;
+    flex: 1 100px;
+    flex-wrap: wrap;
     flex-grow: 1;
+  }
+
+  @media all and (min-width: 800px) {
+    #details { 
+      width: 800px;
+    }
   }
 
   span {
@@ -69,6 +85,7 @@ h1 {
   }
 
   footer {
+    color: white;
     position: absolute;
     bottom: 10px;
     text-align: center;
@@ -76,3 +93,11 @@ h1 {
     font-size: 1.02rem;
 
   }
+
+  /* #map-div {
+    width: 800px;
+    height: 350px;
+    box-shadow: 7px -2px 8px -1px rgba(0,0,0,0.7);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  } */
