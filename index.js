@@ -20,4 +20,4 @@ function updateInfo() {
 }
 
 updateInfo();
-setInterval(function(){ updateInfo(); }, 1000);
+setInterval(function(){ updateInfo(); }, 2000);
