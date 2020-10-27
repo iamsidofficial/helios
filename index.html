@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script defer src="./index.js" charset="utf-8"></script>
+ 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans:ital@1&family=Molengo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helio - Live ISS Tracker &#128752;&#65039;</title>
+    <title>Helios - Live ISS Tracker &#128752;&#65039;</title>
 </head>
 <body>
     <h1>HELIOS &#128752;&#65039;</h1>
@@ -29,6 +30,11 @@
         Time:
         <span id="time"></span>
       </div>
+       <!-- Speed -->
+       <div>
+        Speed:
+        <span id="speed"></span>
+      </div>
       <!-- Latitude -->
       <div>
         Latitude:
@@ -39,11 +45,7 @@
         Longitude:
         <span id="longitude"></span>
       </div>
-      <!-- Speed -->
-      <div>
-        Speed:
-        <span id="speed"></span>
-      </div>
+     
       <!-- Altitude -->
       <div>
         Altitude:
@@ -57,6 +59,11 @@
     </div>
   </div>
         <!--<button id="give-char">Get a new character!!</button>-->
-<footer>Made with ❤ & 🍦JS by iamsidofficial</footer>
+<footer>Made with ❤ and 🍦 JS
+  
+  <hr>
+  Code by iamsidofficial</footer>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+  <script defer src="./index.js" charset="utf-8"></script>
 </body>
 </html>

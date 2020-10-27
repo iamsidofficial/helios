@@ -23,8 +23,8 @@ body {
 h1 {
     color: #ef233c;
     font-size: 1.8rem;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
@@ -48,7 +48,7 @@ h1 {
     padding: 10px;
     color: #fff;
     display: flex;
-    width: 300px;
+    width: 350px;
     max-width: 800px;
     box-shadow: 7px -2px 8px -1px rgba(0,0,0,0.7);
     border-bottom-right-radius: 3px;
@@ -70,11 +70,12 @@ h1 {
     #details { 
       width: 800px;
     }
+
   }
 
   span {
     font-size: 1rem;
-    margin-top: 10px;
+    margin-top: 8px;
   }
   p {
       font-size: 0.9rem;
@@ -85,6 +86,7 @@ h1 {
   }
 
   footer {
+    margin-top: 20px;
     color: white;
     position: absolute;
     bottom: 10px;
@@ -94,10 +96,27 @@ h1 {
 
   }
 
-  /* #map-div {
-    width: 800px;
-    height: 350px;
+  #map-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 300px;
     box-shadow: 7px -2px 8px -1px rgba(0,0,0,0.7);
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
-  } */
+  }
+  
+  @media all and (min-width: 800px) {
+    
+    #map-div {
+      width: 800px;
+      height: 400px;
+    }
+  }
+
+
+  hr {
+    width: 50%;
+    margin-left: 25%;
+    border: 0.1px solid;
+  }
