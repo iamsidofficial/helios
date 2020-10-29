@@ -22,7 +22,7 @@ body {
 
 h1 {
     color: rgb(61, 127, 224);
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     margin-top: 15px;
     margin-bottom: 5px;
     font-family: 'Comfortaa', cursive;
@@ -31,7 +31,7 @@ h1 {
 
 #des {
     color: whitesmoke;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-family: monospace;
 }
 
@@ -48,8 +48,8 @@ h1 {
     padding: 10px;
     color: #fff;
     display: flex;
-    width: 80%;
-    height: 250px;
+    width: 85%;
+    height: 220px;
     max-width: 800px;
     box-shadow: 7px -2px 8px -1px rgba(0,0,0,0.7);
     border-bottom-right-radius: 3px;
@@ -58,7 +58,7 @@ h1 {
 
   #details div {
     color: white;
-    margin: 10px;
+    margin: 8px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -87,8 +87,7 @@ h1 {
   }
 
   footer {
-    line-height: 2rem;
-    margin-top: 20px;
+    top: 20px;
     color: white;
     bottom: 10px;
     text-align: center;
