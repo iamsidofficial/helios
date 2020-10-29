@@ -87,9 +87,9 @@ h1 {
   }
 
   footer {
-    top: 20px;
+  
     color: white;
-    bottom: 10px;
+    margin-bottom: 10px;
     text-align: center;
     width: 100%;
     font-size: 0.9rem;
