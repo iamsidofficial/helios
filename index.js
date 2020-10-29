@@ -27,7 +27,7 @@ center: [lat, long],
 zoom: 5
 });
 
-
+function updateISS() {
 var url = 'https://api.wheretheiss.at/v1/satellites/25544';
 map.on('load', function () {
 var request = new XMLHttpRequest();
@@ -73,4 +73,7 @@ map.addLayer({
 }
 });
 });
+}
+
+updateISS();
 
