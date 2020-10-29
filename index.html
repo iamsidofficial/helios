@@ -79,9 +79,11 @@
         theme.href = "style-white.css";
 
         map.setStyle('mapbox://styles/mapbox/' + 'light-v10');
+        updateISS();
       } else {
         theme.href = "style.css";
         map.setStyle('mapbox://styles/mapbox/' + 'dark-v10');
+        updateISS();
       }
     });
   </script>
